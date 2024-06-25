@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --dark-green: #467750;
+  --green: #89c07e;
+  --gray: #e0e8e2;
+  --yellow: #f0cd6e;
+  --dark: #2a3f3f;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  width: 100%;
+}
+/* 
+#main {
+  background-image: url("./assets/images/Waves.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+} */
+
+#about,
+#contact-form,
+footer {
+  background-color: var(--dark-green);
+}
+
+#contact-form {
+  background-image: url("./assets/images/green\ plant.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-form form input {
+  border-radius: 0px;
+  opacity: 0.6;
+}
+
+.contact-form form input:focus {
+  opacity: 1;
+}
+
+.contact-form form input:first-child {
+  border-top-right-radius: 20px;
+}
+
+.contact-form form textarea {
+  border-radius: 0px;
+  opacity: 0.6;
+}
+
+.contact-form button {
+  border-bottom-left-radius: 20px;
+}
+
+.contact-form form textarea:focus {
+  opacity: 1;
+}
+.recolor {
+  fill: none;
+  stroke-width: 1.5;
+  stroke: #ffffff;
+}
+
+.no-user {
+  height: 50px;
+  width: 50px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.pt-serif-regular,
+body {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.card {
+  background-color: var(--green);
+}
+
+.btn-primary {
+  background-color: var(--yellow);
+  border: 1px solid var(--green);
+}
+
+.btn-primary:hover {
+  background-color: var(--green);
+  border: 1px solid var(--dark-green);
+}
+
+.btn-secondary {
+  background-color: var(--green);
+  border: 1px solid var(--yellow);
+}
+
+.btn-secondary:hover {
+  background-color: var(--dark-green);
+  border: 1px solid var(--green);
+}
+
+.skew {
+  transform: rotate(2deg);
+}
+
+.products div {
+  display: none;
+}
+
+.products:hover div {
+  display: block;
+}
+
+.products:hover img {
+  filter: blur(4px);
+}
+
+.liner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("./assets/images/grass-leaves-silhouette-svgrepo-com.svg");
+  height: 300px;
+}
+
+#partner-websites ul li {
+  list-style-type: none;
+}
+
+#services ul li {
+  list-style-type: none;
+}
+#social-media ul li {
+  list-style-type: none;
+}
